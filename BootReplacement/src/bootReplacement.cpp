@@ -1,3 +1,12 @@
+/* BEWARE: the program will start when you open serial monitor.
+ * It will reset the board when needed. Follow the instructions
+ * on serial monitor to check the status.
+ * 
+ * If a reset occurs PIO serial monitor will throw an error.
+ * Make sure to check the whole serial monitor output to see
+ * messages coming from the board.
+ */
+
 #include <Arduino.h>
 #include "binaryToWrite.h"
 
